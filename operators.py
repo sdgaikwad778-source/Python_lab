@@ -47,3 +47,12 @@ age = 20
 print(age >= 18 and age <= 25)
 print(age < 18 or age > 25)
 print(not age < 18)
+
+#Membership Operator
+
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+print("Apple" in fruits)
+print("Grapes" in fruits)
+
+print("Grapes" not in fruits)
